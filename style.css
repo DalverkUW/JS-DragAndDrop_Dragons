@@ -1,0 +1,60 @@
+.body{
+    background-color: black;
+    font-family: sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+
+.contenedor-dragones{
+    margin: 1px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.contenedor-dragones div{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px;
+    cursor: grab;
+   
+}
+
+/*Añade efecto de opacidad al agarrar un dragón*/
+.contenedor-dragones div:active{
+    opacity: 0.55;
+}
+
+.dragon1{
+    background: url(./img/1A.png);
+    background-size: 100% 100%;
+}
+
+.dragon2{
+    background: url(./img/2A.png);
+    background-size: 100% 100%;
+}
+
+.dragon3{
+    background: url(./img/3A.png);
+    background-size: 100% 100%;
+}
+
+.zona{
+    margin: 10px;
+    background: #ddd;
+    height: 300px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    outline: 6px dashed #aaa;
+}
